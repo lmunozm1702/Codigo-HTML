@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!-- CSS Bootstrap 4.6.1 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- JS Bootstrap 4.6.1 -->
+    <script src="assets/js/jquery.slim.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th class="col-3 text-center">Ramo</th>
+                <th class="col-2 text-center">Nota1</th>
+                <th class="col-2 text-center">Nota2</th>
+                <th class="col-2 text-center">Nota3</th>
+                <th class="col-3 text-center">Promedio</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr>
+                <td class="ramo01"></td>
+                <td class="nota01_01"></td>
+                <td class="nota01_02"></td>
+                <td class="nota01_03"></td>
+                <td class="promedio01"></td>
+            </tr>
+            <tr>
+                <td class="ramo02"></td>
+                <td class="nota02_01"></td>
+                <td class="nota02_02"></td>
+                <td class="nota02_03"></td>
+                <td class="promedio02"></td>
+            </tr>
+            <tr>
+                <td class="ramo03"></td>
+                <td class="nota03_01"></td>
+                <td class="nota03_02"></td>
+                <td class="nota03_03"></td>
+                <td class="promedio03"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        /* Ramo 01 */
+        var ramo01 = prompt('Ingrese nombre del ramo 1')
+        var nota01_01 = Number(prompt('Ingrese nota 1 [' + ramo01 + ']:'))
+        var nota01_02 = Number(prompt('Ingrese nota 2 [' + ramo01 + ']:'))
+        var nota01_03 = Number(prompt('Ingrese nota 3 [' + ramo01 + ']:'))
+        var promedio01 = ((nota01_01 + nota01_02 + nota01_03) / 3).toFixed(2)
+
+        $('.ramo01').text(ramo01)
+        $('.nota01_01').text(nota01_01)
+        $('.nota01_02').text(nota01_02)
+        $('.nota01_03').text(nota01_03)
+        $('.promedio01').text(promedio01)
+
+        /* Ramo 02 */
+        var ramo02 = prompt('Ingrese nombre del ramo 2')
+        var nota02_01 = Number(prompt('Ingrese nota 1 [' + ramo02 + ']:'))
+        var nota02_02 = Number(prompt('Ingrese nota 2 [' + ramo02 + ']:'))
+        var nota02_03 = Number(prompt('Ingrese nota 3 [' + ramo02 + ']:'))
+        var promedio02 = ((nota02_01 + nota02_02 + nota02_03) / 3).toFixed(2)
+
+        $('.ramo02').text(ramo02)
+        $('.nota02_01').text(nota02_01)
+        $('.nota02_02').text(nota02_02)
+        $('.nota02_03').text(nota02_03)
+        $('.promedio02').text(promedio02)
+
+        /* Ramo 03 */
+        var ramo03 = prompt('Ingrese nombre del ramo 2')
+        var nota03_01 = Number(prompt('Ingrese nota 1 [' + ramo03 + ']:'))
+        var nota03_02 = Number(prompt('Ingrese nota 2 [' + ramo03 + ']:'))
+        var nota03_03 = Number(prompt('Ingrese nota 3 [' + ramo03 + ']:'))
+        var promedio03 = ((nota03_01 + nota03_02 + nota03_03) / 3).toFixed(2)
+
+        $('.ramo03').text(ramo03)
+        $('.nota03_01').text(nota03_01)
+        $('.nota03_02').text(nota03_02)
+        $('.nota03_03').text(nota03_03)
+        $('.promedio03').text(promedio03)
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#logo-suricata{
+    height: 30px;
+}
+
+#logo-suricata-footer{
+    height: 60px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-magenta{
+    background-color: #E83E8C;
+}
+
+.bg-blue{
+    background-color: #17A2B8;
+}

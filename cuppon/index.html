@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    <!--Bootstrap 4.6.x -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- Fin Bootstrap -->
+
+    <script src="https://kit.fontawesome.com/8496e48197.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>CUPPON</title>
+</head>
+<body>
+    <!-- Nav bar from bootstrap -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-green">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img id="logo-cuppon" src="assets/images/logo-white.png" alt="CUPPON Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> <!-- ml-auto deja el menu alineado a la derecha -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="col mb-4">
+            <div class="card">
+                <img src="assets/images/cupon-1.jpg" class="card-img-top" alt="Imagen pumón Coral Fleece">
+                <div class="card-body font-weight-light my-0 py-2">
+                    <p class="card-title my-1" id="cuppon-title">Plumón Coral Fleece estampado en modelo y tamaño a elección.</p>
+                    <p id="cuppon-subtitle" class="my-0 py-0">Plumones Manolino</p>
+                    <p id="cuppon-address" class="my-0 py-0"><i class="fa-solid fa-location-dot fa-2xs"></i> 9191 Avenida Vitacura, Chile</p>
+                    <hr>
+                    <p class="text-right">
+                        <span class="font-weight-light" id="cuppon-subtitle">$45.990 </span>
+                        <span class="font-weight-bolder" id="text-green"> $22.990</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="assets/images/cupon-2.jpg" class="card-img-top" alt="Imagen pumón Coral Fleece">
+                <div class="card-body font-weight-light my-0 py-2">
+                    <p class="card-title my-1" id="cuppon-title">Entrada para compartir + platos de fondo + postres + bebestibles.</p>
+                    <p id="cuppon-subtitle" class="my-0 py-0">V for Vegan</p>
+                    <p id="cuppon-address" class="my-0 py-0"><i class="fa-solid fa-location-dot fa-2xs"></i> 777 Jesse Pinkman, Chile</p>
+                    <hr>
+                    <p class="text-right">
+                        <span class="font-weight-light" id="cuppon-subtitle">$30.990 </span>
+                        <span class="font-weight-bolder" id="text-green"> $12.990</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="assets/images/cupon-3.jpg" class="card-img-top" alt="Imagen pumón Coral Fleece">
+                <div class="card-body font-weight-light my-0 py-2">
+                    <p class="card-title my-1" id="cuppon-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</p>
+                    <p id="cuppon-subtitle" class="my-0 py-0">Clínica Dental Quijada</p>
+                    <p id="cuppon-address" class="my-0 py-0"><i class="fa-solid fa-location-dot fa-2xs"></i> 1342, Blanco Encalada, Chile</p>
+                    <hr>
+                    <p class="text-right">
+                        <span class="font-weight-light" id="cuppon-subtitle">$300.000 </span>
+                        <span class="font-weight-bolder" id="text-green"> $25.990</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="assets/images/cupon-4.jpg" class="card-img-top" alt="Imagen pumón Coral Fleece">
+                <div class="card-body font-weight-light my-0 py-2">
+                    <p class="card-title my-1" id="cuppon-title">Colación para 2 personas + postre (no incluye bebidas)</p>
+                    <p id="cuppon-subtitle" class="my-0 py-0">Suricata almacen</p>
+                    <p id="cuppon-address" class="my-0 py-0"><i class="fa-solid fa-location-dot fa-2xs"></i> 1071 Miguel Claro, Chile</p>
+                    <hr>
+                    <p class="text-right">
+                        <span class="font-weight-light" id="cuppon-subtitle">$4.200 </span>
+                        <span class="font-weight-bolder" id="text-green"> $2.100</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="assets/images/cupon-5.jpg" class="card-img-top" alt="Imagen pumón Coral Fleece">
+                <div class="card-body font-weight-light my-0 py-2">
+                    <p class="card-title my-1" id="cuppon-title">1, 2 o 4 tickets para Stukids. Elige sucursal</p>
+                    <p id="cuppon-subtitle" class="my-0 py-0">Stukids Centro de Eventos</p>
+                    <p id="cuppon-address" class="my-0 py-0"><i class="fa-solid fa-location-dot fa-2xs"></i> 133 El tranque, Chile</p>
+                    <hr>
+                    <p class="text-right">
+                        <span class="font-weight-light" id="cuppon-subtitle">$4.000 </span>
+                        <span class="font-weight-bolder" id="text-green"> $2.500</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card">
+                <img src="assets/images/cupon-6.jpg" class="card-img-top" alt="Imagen pumón Coral Fleece">
+                <div class="card-body font-weight-light my-0 py-2">
+                    <p class="card-title my-1" id="cuppon-title">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</p>
+                    <p id="cuppon-subtitle" class="my-0 py-0">D-Latam Travel</p>
+                    <!--p id="cuppon-address" class="my-0 py-0"><i class="fa-solid fa-location-dot fa-2xs"></i> 9191 Avenida Vitacura, Chile</p-->
+                    <hr>
+                    <p class="text-right">
+                        <span class="font-weight-light" id="cuppon-subtitle">$80.200 </span>
+                        <span class="font-weight-bolder" id="text-green"> $44.100</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class=" container py-3 bg-green text-center">
+        <div>
+            <p id="text-email">Recibe cupones en tu correo</p>
+        </div>
+        <div>
+            <form>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electrónico">
+                </div>
+                <button type="submit" class="btn btn-light btn-lg">Enviar</button>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.description{
+    padding:0px;
+}
+
+.div-description{
+    float: left;
+    width: 35%;
+    padding-left: 150px;
+    border-right: 150px;
+    background-color: black;
+    color:white;
+}
+
+.div-description-image{
+    float: right;
+    width: 50%;
+}
+
+#img-description{
+    width: 399px;
+
+}

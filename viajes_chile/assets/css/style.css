@@ -1,0 +1,7 @@
+.hr-section{
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}

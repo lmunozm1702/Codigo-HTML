@@ -29,15 +29,17 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/viajes.svg" alt="Viajes Chile Logo"> Viajes Chile
-                </a>
+                <div id="mg10">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/viajes.svg" alt="Viajes Chile Logo"> Viajes Chile
+                    </a>
+                </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto"> <!-- ml-auto deja el menu alineado a la derecha -->
+                <div class="collapse navbar-collapse" id="navbarNav mg10">
+                    <ul class="navbar-nav ml-auto" id="mg10"> <!-- ml-auto deja el menu alineado a la derecha -->
                         <li class="nav-item disabled">
                             <a class="nav-link" href="#">Inicio</a>
                         </li>
@@ -79,11 +81,12 @@
         </section>
     </header>
     <main>
-        <section class="container">
+        <section class="container d-none d-sm-block">
             <div id="bg-black" class="text-white text-center">
                 <h5 class="pt-5">¿QUIENES SOMOS?</h5>
                 <hr class="hr-section"/>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+
+                <div class="row row-cols-1 row-cols-sm1 row-cols-md-3">
                     <div class="col mb-4 px-5 py-2">
                         <div class="card text-white" id="bg-black">
                             <div class="bg-info">
@@ -114,11 +117,60 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="container">
+            <div id="bg-black" class="text-white text-center">
+                <h5 class="pt-5">DESTACADOS</h5>
+                <hr class="hr-section"/>
 
-
-
-
+                <div class="row row-cols-1 row-cols-sm1 row-cols-md-4">
+                    <div class="col mb-4 pl-5 pr-1 py-2">
+                        <div class="card text-white text-left" id="bg-black">
+                            <div class="bg-info">
+                                <img id="img-des" src="assets/img/card1.jpg" alt="">
+                            </div>
+                            <div class="card-body bg-info">
+                                <h5>Lorem ipsum dolor sit amet</h5>
+                                <p class="card-text font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 px-1 py-2">
+                        <div class="card text-white text-left" id="bg-black">
+                            <div class="bg-info">
+                                <img id="img-des" src="assets/img/card2.jpg" alt="">
+                            </div>
+                            <div class="card-body bg-info">
+                                <h5>Lorem ipsum dolor sit amet</h5>
+                                <p class="card-text font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 px-1 py-2">
+                        <div class="card text-white text-left" id="bg-black">
+                            <div class="bg-info">
+                                <img id="img-des" src="assets/img/card3.jpg" alt="">
+                            </div>
+                            <div class="card-body bg-info">
+                                <h5>Lorem ipsum dolor sit amet</h5>
+                                <p class="card-text font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 pl-1 pr-5 py-2">
+                        <div class="card text-white text-left" id="bg-black">
+                            <div class="bg-info">
+                                <img id="img-des" src="assets/img/card4.jpg" alt="">
+                            </div>
+                            <div class="card-body bg-info">
+                                <h5>Lorem ipsum dolor sit amet</h5>
+                                <p class="card-text font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

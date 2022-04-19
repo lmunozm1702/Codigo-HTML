@@ -10,3 +10,12 @@
 #bg-black{
     background-color: black;
 }
+
+#mg10{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#img-des{
+    max-width: 100%;
+}
